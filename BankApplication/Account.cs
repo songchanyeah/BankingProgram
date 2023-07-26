@@ -1,3 +1,8 @@
+using System;
+
+/// <summary>
+/// Represents the state of an account.
+/// </summary>
 public enum AccountState
 {
     New,
@@ -7,73 +12,106 @@ public enum AccountState
     Closed
 }
 
-public class Account : IAccount
+
+
+/// <summary>
+/// Represents an abstract bank account.
+/// </summary>
+public abstract class Account
 {
     private string name;
     private string address;
-    private int accountNumber;
-    private decimal balance;
-    private const decimal initialBalance = 100;
+    private string accountNumber;
+    protected decimal balance;
     private AccountState state;
+    private decimal serviceFee;
+    
+    private static int accountNumberCounter = 1000;
 
-    public bool SetName(string inName)
+
+    public Account()
     {
-        if (string.IsNullOrEmpty(inName))
-            return false;
-
-        name = inName;
-        return true;
+        GenerateAccountNumber();
+    }
+    /// <summary>
+    /// Gets or sets the account name.
+    /// </summary>
+    public string Name
+    {
+        get { return name; }
+        set { name = value; }
     }
 
-    public string GetName()
+    /// <summary>
+    /// Gets or sets the account address.
+    /// </summary>
+    public string Address
     {
-        return name;
+        get { return address; }
+        set { address = value; }
     }
 
-    public bool SetAddress(string inAddress)
+    /// <summary>
+    /// Gets the account number.Get
+    /// </summary>
+    public string AccountNumber
     {
-        if (string.IsNullOrEmpty(inAddress))
-            return false;
-
-        address = inAddress;
-        return true;
+        get { return accountNumber; }
     }
 
-    public string GetAddress()
+    /// <summary>
+    /// Gets the account balance.
+    /// </summary>
+    public decimal Balance
     {
-        return address;
+        get { return balance; }
     }
 
-    public void PayInFunds(decimal amount)
+    /// <summary>
+    /// Gets or sets the account state.
+    /// </summary>
+    public AccountState State
     {
-        balance += amount;
+        get { return state; }
+        set { state = value; }
     }
 
-    public bool WithdrawFunds(decimal amount)
+    /// <summary>
+    /// Gets or sets the account service fee.
+    /// </summary>
+    public decimal ServiceFee
     {
-        if (balance - amount < 0)
-            return false;
-
-        balance -= amount;
-        return true;
+        get { return serviceFee; }
+        set { serviceFee = value; }
     }
 
-    public bool SetBalance(decimal inBalance)
-    {
-        if (inBalance < initialBalance)
-            return false;
+    /// <summary>
+    /// Displays the account type.
+    /// </summary>
+    public abstract void DisplayAccountType();
 
-        balance = inBalance;
-        return true;
+    /// <summary>
+    /// Generates the account number based on the account type.
+    /// </summary>
+    protected virtual void GenerateAccountNumber()
+    {
+        int currentAccountNumber = accountNumberCounter++;
+        accountNumber = $"{currentAccountNumber:D6}";
     }
 
-    public decimal GetBalance()
+    /// <summary>
+    /// Sets the initial balance based on the account type.
+    /// </summary>
+    protected virtual void SetInitialBalance(decimal minimumBalance)
     {
-        return balance;
+        balance = minimumBalance;
     }
 
-    public void SetState(AccountState state)
+    /// <summary>
+    /// Checks if the account has the minimum required balance.
+    /// </summary>
+    protected bool HasMinimumBalance(decimal minimumBalance)
     {
-        this.state = state;
+        return balance >= minimumBalance;
     }
 }

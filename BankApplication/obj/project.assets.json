@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cyhso\\Desktop\\UVU\\cs3260\\BankApplication\\BankApplication.csproj",
+      "projectUniqueName": "C:\\Users\\cyhso\\Desktop\\UVU\\2023 Summer\\cs3260 (CsharpNet)\\BankingProgram\\BankApplication\\BankApplication.csproj",
       "projectName": "BankApplication",
-      "projectPath": "C:\\Users\\cyhso\\Desktop\\UVU\\cs3260\\BankApplication\\BankApplication.csproj",
+      "projectPath": "C:\\Users\\cyhso\\Desktop\\UVU\\2023 Summer\\cs3260 (CsharpNet)\\BankingProgram\\BankApplication\\BankApplication.csproj",
       "packagesPath": "C:\\Users\\cyhso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cyhso\\Desktop\\UVU\\cs3260\\BankApplication\\obj\\",
+      "outputPath": "C:\\Users\\cyhso\\Desktop\\UVU\\2023 Summer\\cs3260 (CsharpNet)\\BankingProgram\\BankApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -56,16 +57,35 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.17, 5.0.17]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
       }
     }
   }

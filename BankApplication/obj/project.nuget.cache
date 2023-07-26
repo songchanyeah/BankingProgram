@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "riMNf2aa72pXB8UGCS25ckYHKMxKMA5/6eSiFQK9BGLDORdWIPHhNDASRJLJzql1sLg/fQOx6xX6g3QRgrvufA==",
+  "dgSpecHash": "ijcauLcKxMf7Qn8YPOgXBhzAHkECY9sB/ROrPfaP8R70jUXjQ8f/abCGadRVIPCQBuMP9YzDUMXD+KtpzEkMUA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cyhso\\Desktop\\UVU\\cs3260\\BankApplication\\BankApplication.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\cyhso\\Desktop\\UVU\\2023 Summer\\cs3260 (CsharpNet)\\BankingProgram\\bankapplication\\BankApplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cyhso\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\cyhso\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\cyhso\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\cyhso\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }

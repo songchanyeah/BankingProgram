@@ -14,3 +14,19 @@ C:\Users\cyhso\Desktop\UVU\cs3260\BankApplication\obj\Debug\net5.0\BankApplicati
 C:\Users\cyhso\Desktop\UVU\cs3260\BankApplication\obj\Debug\net5.0\ref\BankApplication.dll
 C:\Users\cyhso\Desktop\UVU\cs3260\BankApplication\obj\Debug\net5.0\BankApplication.pdb
 C:\Users\cyhso\Desktop\UVU\cs3260\BankApplication\obj\Debug\net5.0\BankApplication.genruntimeconfig.cache
+C:\Users\cyhso\Desktop\UVU\2023 Summer\cs3260 (CsharpNet)\BankingProgram\BankApplication\bin\Debug\net5.0\BankApplication.exe
+C:\Users\cyhso\Desktop\UVU\2023 Summer\cs3260 (CsharpNet)\BankingProgram\BankApplication\bin\Debug\net5.0\BankApplication.deps.json
+C:\Users\cyhso\Desktop\UVU\2023 Summer\cs3260 (CsharpNet)\BankingProgram\BankApplication\bin\Debug\net5.0\BankApplication.runtimeconfig.json
+C:\Users\cyhso\Desktop\UVU\2023 Summer\cs3260 (CsharpNet)\BankingProgram\BankApplication\bin\Debug\net5.0\BankApplication.runtimeconfig.dev.json
+C:\Users\cyhso\Desktop\UVU\2023 Summer\cs3260 (CsharpNet)\BankingProgram\BankApplication\bin\Debug\net5.0\BankApplication.dll
+C:\Users\cyhso\Desktop\UVU\2023 Summer\cs3260 (CsharpNet)\BankingProgram\BankApplication\bin\Debug\net5.0\BankApplication.pdb
+C:\Users\cyhso\Desktop\UVU\2023 Summer\cs3260 (CsharpNet)\BankingProgram\BankApplication\obj\Debug\net5.0\BankApplication.csproj.AssemblyReference.cache
+C:\Users\cyhso\Desktop\UVU\2023 Summer\cs3260 (CsharpNet)\BankingProgram\BankApplication\obj\Debug\net5.0\BankApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cyhso\Desktop\UVU\2023 Summer\cs3260 (CsharpNet)\BankingProgram\BankApplication\obj\Debug\net5.0\BankApplication.AssemblyInfoInputs.cache
+C:\Users\cyhso\Desktop\UVU\2023 Summer\cs3260 (CsharpNet)\BankingProgram\BankApplication\obj\Debug\net5.0\BankApplication.AssemblyInfo.cs
+C:\Users\cyhso\Desktop\UVU\2023 Summer\cs3260 (CsharpNet)\BankingProgram\BankApplication\obj\Debug\net5.0\BankApplication.csproj.CoreCompileInputs.cache
+C:\Users\cyhso\Desktop\UVU\2023 Summer\cs3260 (CsharpNet)\BankingProgram\BankApplication\obj\Debug\net5.0\BankApplication.dll
+C:\Users\cyhso\Desktop\UVU\2023 Summer\cs3260 (CsharpNet)\BankingProgram\BankApplication\obj\Debug\net5.0\refint\BankApplication.dll
+C:\Users\cyhso\Desktop\UVU\2023 Summer\cs3260 (CsharpNet)\BankingProgram\BankApplication\obj\Debug\net5.0\BankApplication.pdb
+C:\Users\cyhso\Desktop\UVU\2023 Summer\cs3260 (CsharpNet)\BankingProgram\BankApplication\obj\Debug\net5.0\BankApplication.genruntimeconfig.cache
+C:\Users\cyhso\Desktop\UVU\2023 Summer\cs3260 (CsharpNet)\BankingProgram\BankApplication\obj\Debug\net5.0\ref\BankApplication.dll
